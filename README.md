@@ -21,6 +21,7 @@ If they made a wrong answer, 1 life will be deduced. The game ends when lives tu
 ## Visual memory mode:
 
 A NXN grid graph will be provided initially. The graph will be colored randomly. So, player is required to point out the correct positions after 3 seconds.
+
 ![Visual](https://i.imgur.com/jVQXLaM.png)
 
 The graph will be scaled to (N+1*N+1) as well as the colored grid when the player advances.
