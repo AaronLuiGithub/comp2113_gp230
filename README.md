@@ -4,11 +4,10 @@
 
 It is a single player game which will help to train Players’ short-term memory. The game may adopt different modes such as visual and verbal with a view to facilitating memory in various perspectives.
 
-Main interface:
-
+#### Main interface:
 Different modes of the game will be provided, and users are able to choose which mode they will play.
 
-Game rules:
+#### Game rules:
 Player will have 3 lives in total. 
 
 Player may have 3 seconds to remember the answer. After 3 seconds gone, there will be an input flied provided for user to fill in their answer.  
