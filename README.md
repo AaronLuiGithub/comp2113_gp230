@@ -1,5 +1,10 @@
 # comp2113_group_game
 
+Lui Ching Hang,Aaron 3035537612 BSC(IM) Year 4
+
+Lam Hok Sum,Nathanc 3035667649  BENG Year 1
+
+
 ## Memory Game
 
 It is a single player game which will help to train Players’ short-term memory. The game may adopt different modes such as visual and verbal with a view to facilitating memory in various perspectives.
