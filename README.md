@@ -2,7 +2,7 @@
 
 ## Lui Ching Hang,Aaron 3035537612 BSC(IM) Year 4
 
-## Lam Hok Sum,Nathanc 3035667649  BENG Year 1
+## Lam Hok Sum,Nathan 3035667649  BENG Year 1
 
 
 ## Memory Game
