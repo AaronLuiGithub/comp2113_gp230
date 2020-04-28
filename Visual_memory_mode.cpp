@@ -17,9 +17,12 @@ void printing(bool *x,int level){//maybe can upgrade? I will do it later
 	}
 }
 
-int getlevel(){//get level, to be finish
-	int level = 2;
-	return level;
+int getlevel(){
+	int level;
+	cout << "what level you want to play?(2-4)"
+	cin >> level;
+	if (level==2 or level==3 or level==4) return level;
+	else return getlevel();
 }
 
 void input(bool *x2,int level){//to be finish
