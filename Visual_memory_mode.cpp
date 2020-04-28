@@ -19,7 +19,7 @@ void printing(bool *x,int level){//maybe can upgrade? I will do it later
 
 int getlevel(){
 	int level;
-	cout << "what level you want to play?(2-4)"
+	cout << "what level you want to play?(2-4)";
 	cin >> level;
 	if (level==2 or level==3 or level==4) return level;
 	else return getlevel();
@@ -54,6 +54,8 @@ int main(){
 	printing(x,level);
 	//sleep(1200);
 	cout<<"press enter to start answer";
+	cin.clear();
+	fflush(stdin);
 	getchar();
 	system("cls||clear");//to be improve...
 	
@@ -74,5 +76,3 @@ int main(){
 	return 0;
 	
 }
-
-
