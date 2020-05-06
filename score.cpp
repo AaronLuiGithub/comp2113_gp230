@@ -9,10 +9,11 @@ struct scores{
     int score;
 };
 
-int main()//change to int score(string newname,string newscore)
+void score(int newscore)
 {
-	string newname, newscore;
-	cin >> newname >> newscore;//to be delete
+	string newname;
+	cout << "what is your name?\n";
+	cin >> newname ;
     char filename[80] = "data.txt";
     ifstream fin;
 	fin.open(filename);
