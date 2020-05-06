@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main()
+int verbal()
 {
 	int lives=3;
 	int level=1;
