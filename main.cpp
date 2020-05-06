@@ -24,7 +24,7 @@ int main()
    cout << "p.s. you may play again and again but only latest score will be recort " << endl;  
    
    int n;
-  int scores
+  int scores=0;
    while (true){
        cin >> n;
        switch(n) {
