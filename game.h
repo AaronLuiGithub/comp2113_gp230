@@ -12,6 +12,9 @@
 
 using namespace std;
 
-void verbal();
+int verbal();
+int visual();
+void score();
+
 
 #endif
