@@ -38,7 +38,7 @@ void input(bool *x2,int level){//to be finish
 	}
 }
 
-int main(){
+void visual(){
 	srand(time(NULL) );
 	int level;
 	level= getlevel();
