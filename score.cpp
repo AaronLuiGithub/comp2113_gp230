@@ -14,7 +14,7 @@ void score(int newscore)
 	string newname;
 	cout << "what is your name?\n";
 	cin >> newname ;
-    char filename[80] = "data.txt";
+    char filename[80] = "score.dat";
     ifstream fin;
 	fin.open(filename);
 
