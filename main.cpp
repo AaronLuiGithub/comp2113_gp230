@@ -7,7 +7,7 @@
 #include <string>
 #include <windows.h>
 #include <unistd.h>
-#include <game.h>
+#include "game.h"
 
 using namespace std;
 
