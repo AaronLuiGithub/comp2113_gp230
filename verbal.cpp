@@ -32,7 +32,7 @@ int verbal()
 		temp+="\0";
 		answer=new string(temp);
 
-		std::cout << *answer << " ";
+		std::cout << *answer << " ";//has bug
 
 		sleep(3);
 
