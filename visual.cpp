@@ -4,6 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <math.h>
+#include "game.h"
 
 
 using namespace std;
@@ -38,7 +39,8 @@ void input(bool *x2,int level){//to be finish
 	}
 }
 
-void visual(){
+int visual(){
+	int score=0;
 	srand(time(NULL) );
 	int level;
 	level= getlevel();
@@ -68,11 +70,13 @@ void visual(){
 			win=false;
 		}
 	}
-	if (win==true) cout << "correct answer, you are strong.";
-	
+	if (win==true){
+	cout << "correct answer, you are strong.";
+	score+=level;	
+	}
 	delete[]x;
 	delete[]x2;
 	
-	return 0;
+	return score;
 	
 }
