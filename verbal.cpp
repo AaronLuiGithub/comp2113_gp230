@@ -31,16 +31,17 @@ int verbal()
 		}
 		temp+="\0";
 		answer=new string(temp);
-		std::cout << *answer ;
 
-		sleep (3);
+		std::cout << *answer << " ";
 
-		system("CLS");
+		sleep(3);
+
+		cout << "\033[2K" ;
 
 		std::cout << "The answer: " ;
 		cin>>input;
 
-		system("CLS");
+		cout << "\033[2J" ;
 
 		if (*answer!=input) {
 			lives--;
@@ -53,11 +54,11 @@ int verbal()
 
 			while (count >= 0){
 					cout << "\rLevel resumes in " << count << flush;
-					sleep(1);
+					(1);
 					count--;
 			}
 
-			system("CLS");
+			cout << "\033[2J" ;
 		}else{
 			std::cout << "Correct!" << '\n';
 
@@ -67,12 +68,12 @@ int verbal()
 					count--;
 			}
 
-			system("CLS");
+			cout << "\033[2J" ;
 			level++;
 
 		}
 		temp.clear();
 		delete answer;
 	}
-  return 0;
+  return level-1;
 }

@@ -9,10 +9,11 @@
 
 using namespace std;
 
+
 void printing(bool *x,int level){//maybe can upgrade? I will do it later
-	int sqrlevel = sqrt(level); 
+	int sqrlevel = sqrt(level);
 	for (int i=0; i<level; ++i){
-		if (x[i]== true)  cout<<"1"; 
+		if (x[i]== true)  cout<<"1";
 		else cout<<"0";
 		if ((i%sqrlevel)==(sqrlevel-1))	cout << endl;
 	}
@@ -47,36 +48,43 @@ int visual(){
 	level = level*level;
 	bool *x = new bool [level];//I know how to use 2d dynamic array but I don't want to use it.
 	bool *x2 = new bool [level];
-	
+
 	for (int i=0; i<level; ++i){  //rendom out picture
 		if ((rand()%2)>0.5)  x[i]=true;
 		else  x[i]=false;
 	}
-	
+
 	printing(x,level);
-	//sleep(1200);
-	cout<<"press enter to start answer";
+	int k = 3;
+	while (k >= 0){
+			cout << "\rgame will start in " << k << flush;
+			sleep(1);
+			k--;
+	}
 	cin.clear();
 	fflush(stdin);
-	getchar();
-	system("cls||clear");//to be improve...
-	
+	for (int i =0; i<20; ++i){
+			cout << "\033[1J" ;
+	}
+
+	cout << "please use space bar between every number.\ne.g.\n0 1 \n0 1 \n";
 	input(x2,level);
-	
+
 	bool win=true;
 	for (int i=0; i<level; ++i){  //rendom out picture
 		if (x2[i]!=x[i])  {
 			cout <<"wrong answer, you are weak.";
 			win=false;
+			break;
 		}
 	}
 	if (win==true){
 	cout << "correct answer, you are strong.";
-	score+=level;	
+	score+=level;
 	}
 	delete[]x;
 	delete[]x2;
-	
+
 	return score;
-	
+
 }
