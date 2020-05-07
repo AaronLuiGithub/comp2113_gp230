@@ -50,5 +50,5 @@ void score(int newscore)
 	fout << newscore << endl;
    fout.close();
 
-   return 0;
+   //return 0;
 }

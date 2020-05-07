@@ -5,7 +5,7 @@ verbal.o: verbal.cpp game.h
 visual.o: visual.cpp game.h
 	g++ -c visual.cpp
 
-score.o: scorel.cpp game.h
+score.o: score.cpp game.h
 	g++ -c score.cpp
 
 main.o: main.cpp game.h
@@ -13,6 +13,10 @@ main.o: main.cpp game.h
 
 main: verbal.o visual.o score.o main.o
 	g++ verbal.o visual.o score.o main.o -o main
+
+.PHONY : clean
+clean :
+	-rm main.o score.o visual.o verbal.o
 
 
 

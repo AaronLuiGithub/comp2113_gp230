@@ -4,7 +4,7 @@
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>
 #include <string>
-#include <windows.h>
+//#include <windows.h>
 #include <unistd.h>
 #include "game.h"
 //usleep(microseconds);
@@ -33,7 +33,7 @@ int verbal()
 		answer=new string(temp);
 		std::cout << *answer ;
 
-		Sleep(3000);
+		sleep (3);
 
 		system("CLS");
 
@@ -53,7 +53,7 @@ int verbal()
 
 			while (count >= 0){
 					cout << "\rLevel resumes in " << count << flush;
-					Sleep(1000);
+					sleep(1);
 					count--;
 			}
 
@@ -63,7 +63,7 @@ int verbal()
 
 			while (count >= 0){
 					cout << "\rNext level begins in " << count << flush;
-					Sleep(1000);
+					sleep(1);
 					count--;
 			}
 
