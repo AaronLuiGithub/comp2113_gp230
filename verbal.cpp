@@ -6,6 +6,7 @@
 #include <string>
 #include <windows.h>
 #include <unistd.h>
+#include "game.h"
 //usleep(microseconds);
 
 using namespace std;
