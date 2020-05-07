@@ -14,6 +14,11 @@ main.o: main.cpp game.h
 main: verbal.o visual.o score.o main.o
 	g++ verbal.o visual.o score.o main.o -o main
 
+play: verbal.o visual.o score.o main.o
+	g++ verbal.o visual.o score.o main.o -o main
+	./main
+
+
 .PHONY : clean
 clean :
 	-rm main.o score.o visual.o verbal.o
