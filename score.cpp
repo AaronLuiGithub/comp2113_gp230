@@ -42,7 +42,7 @@ void score(int newscore)
    }
    ++n;
    fout << n << endl;
-    for(int i =0; i<n+1;++i){
+    for(int i =0; i<n-1;++i){
         fout << a[i].name <<" ";
         fout << a[i].score << endl;    
     }
