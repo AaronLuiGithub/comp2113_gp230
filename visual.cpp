@@ -33,11 +33,7 @@ void input(bool *x2,int level){//to be finish
 	for(int i=0;i<level;++i){
 		cin >> temp;
 		if (temp=='1') x2[i]=true;
-		else if (temp=='0') x2[i]=false;
-		else {
-			cout << "error input, please input again";
-			input(x2, level);
-		}
+		else x2[i]=false;
 	}
 }
 
