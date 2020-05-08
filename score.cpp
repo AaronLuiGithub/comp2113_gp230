@@ -1,3 +1,4 @@
+//cpp file for recording score into score.dat
 #include <iostream>
 #include <fstream>
 #include <string>
