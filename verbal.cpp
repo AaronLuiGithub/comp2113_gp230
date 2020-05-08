@@ -1,3 +1,4 @@
+//cpp file to play verbal game, marks will be return.
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
