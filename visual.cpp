@@ -1,3 +1,4 @@
+//cpp file for visual mode of the game.
 //The game will have 3 level, 2*2,3*3,4*4
 
 #include <iostream>
