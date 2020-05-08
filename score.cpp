@@ -24,7 +24,7 @@ void score(int newscore)
 		cout << "Error in file opening!" 	<< endl;
  		exit(1);
  	}
- 	
+ 	cout << "scores before:\n";
  	fin >> n;
  	scores *a = new scores[n];
     for(int i =0; i<n;++i){
