@@ -1,4 +1,4 @@
-
+// this is the cpp file for main, also use for controling table to choose which game to play.
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
