@@ -29,10 +29,11 @@ int verbal()
 			 x =rand() % 9 + 0;
 			 temp.append(to_string(x));
 		}
-		temp+="\0";
+		
 		answer=new string(temp);
-
-		std::cout << *answer << " ";//has bug
+		
+		std::cout << *answer << " ";//has bug //fixed 0508
+		std::cout.flush() ;
 
 		sleep(3);
 
