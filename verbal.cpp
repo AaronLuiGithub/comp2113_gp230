@@ -37,7 +37,7 @@ int verbal()
 		
 		std::cout << *answer << " ";//has bug //fixed 0508
 		std::cout.flush() ;
-
+		// flush the stream
 		sleep(3);
 
 		cout << "\033[2K" ;
@@ -54,11 +54,10 @@ int verbal()
 				std::cout << "Your score is:" <<level-1<< '\n';
 				break;
 			}
-			std::cout << "Wrong Answer! Please try again!" << '\n';
 
 			while (count >= 0){
-					cout << "\rLevel resumes in " << count << flush;
-					(1);
+					 cout << "\r Wrong Answer! Please try again! Level resumes in " << count<< flush ;
+					sleep(1);
 					count--;
 			}
 
