@@ -1,5 +1,4 @@
-# comp2113_group_game
-
+# comp2113_gp230
 ## Lui Ching Hang,Aaron 3035537612 BSC(IM) Year 4
 
 ## Lam Hok Sum,Nathan 3035667649  BENG Year 1
