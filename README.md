@@ -24,21 +24,20 @@ If they made a wrong answer, 1 life will be deduced. The game ends when lives tu
 
 ## Visual memory mode:
 
-A NXN grid graph will be provided initially. The graph will be colored randomly. So, player is required to point out the correct positions after 3 seconds.
+A NXN grid graph will be provided initially. The graph will be pinned randomly. So, player is required to input the correct graph .
+Player can opt for diffculty 
 
-![Visual](https://i.imgur.com/jVQXLaM.png)
-
-The graph will be scaled to (N+1*N+1) as well as the colored grid when the player advances.
-
-
+010
+110
+111
 
 
 ## Verbal memory mode: 
 
 A random N digits number will be provided initially. Player is required to remember the number. Also, n+1 will also be the next level.
 
-![Verbal](https://i.imgur.com/0cS2pMI.png)
-
+Level 3: 721
+The answer:721
 
 
 
