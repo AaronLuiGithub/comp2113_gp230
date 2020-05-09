@@ -14,6 +14,8 @@ using namespace std;
 
 int verbal()
 {
+	cout << "\033[2J" ;
+
 	int lives=3;
 	int level=1;
 	srand (time(NULL));
